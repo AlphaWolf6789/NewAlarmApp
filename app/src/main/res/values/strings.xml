@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AlarmApp</string>
+    <string name="name_alarm">Alarm</string>
+    <string name="name_bed_clock">Bed clock</string>
+    <string name="name_timer">Timer</string>
+    <string name="name_global_clock">World Time</string>
+    <string name="name_stopwatch">Stopwatch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alarm_fragment">Alarm Fragment</string>
+    <string name="world_time_fragment">World Time Fragment</string>
+    <string name="timer_fragment">Timer Fragment</string>
+    <string name="stopwatch_fragment">00 : 00 : 00</string>
+    <string name="bed_clock_fragment">Bed Clock Fragment</string>
+    <string name="time_setAlarmActivity">08 : 00</string>
+    <string name="ring_tone">Default Ringtone</string>
+    <string name="alarm_note">Go to school</string>
+
+    <!-- timer   -->
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes...</string>
+    <!--    -->
+
+    <string-array name="alarm_types">
+        <item>None</item>
+        <item>Work</item>
+        <item>Sleep</item>
+        <item>Wake up</item>
+        <item>Exercise</item>
+    </string-array>
+</resources>

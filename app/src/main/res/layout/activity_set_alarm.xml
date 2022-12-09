@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".Activities.SetAlarmActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_setAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img_setAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:foreground="@drawable/image_overlay"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_day"
+            app:cardCornerRadius="15dp" />
+
+        <TextView
+            android:id="@+id/txt_setAlarm"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="@string/time_setAlarmActivity"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/txt_Repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView_setAlarm"
+        android:layout_marginTop="15dp"
+        android:text="Repeat"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_Weekdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView_setAlarm"
+        android:layout_alignRight="@id/cardView_setAlarm"
+        android:layout_marginTop="15dp"
+        android:text="Weekdays"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ToggleButton
+        android:id="@+id/btn_Mon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Mon"
+        android:textOn="Mon"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Tue"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Mon"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Tue"
+        android:textOn="Tue"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Wed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Tue"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Wed"
+        android:textOn="Wed"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Thu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Wed"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Thu"
+        android:textOn="Thu"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Fri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Thu"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Fri"
+        android:textOn="Fri"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Sat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Fri"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Sat"
+        android:textOn="Sat"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/btn_Sun"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/btn_Sat"
+        android:background="@drawable/toggle_button_default"
+        android:textAllCaps="false"
+        android:textColor="@drawable/text_color_clicked"
+        android:textOff="Sun"
+        android:textOn="Sun"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_alarmNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Mon"
+        android:layout_marginTop="10dp"
+        android:text="Alarm Note"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_alarmNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_alarmNote"
+        android:backgroundTint="@color/white"
+
+        android:textColor="@color/color_yellow" />
+
+    <TextView
+        android:id="@+id/txt_RingTone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_alarmNote"
+        android:layout_marginTop="10dp"
+        android:text="Alarm RingTone"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_RingTone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_RingTone"
+        android:backgroundTint="@color/main_background"
+        android:text="@string/ring_tone"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txt_Volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_RingTone"
+        android:layout_marginTop="10dp"
+        android:text="Alarm Volume"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="@style/MySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Volume"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/txt_Vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar"
+        android:layout_marginTop="10dp"
+        android:text="Vibrate during alarm"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/is_Vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        app:thumbTint="#DCDBDB"
+        app:trackTint="@drawable/switch_track" />
+
+    <android.widget.Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Vibrate"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/button_disable_background"
+        android:text="Cancle"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <android.widget.Button
+        android:id="@+id/btn_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/txt_Vibrate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/color_yellow"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+
+    tools:context=".Fragment.AlarmFragment">
+
+    <TextView
+        android:id="@+id/txt_stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/stopwatch_fragment"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list_view_stopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/txt_stopwatch"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_lap_stopwatch"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/row_of_buttons"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/color_yellow"
+        android:text="Lap Time"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:id="@+id/row_of_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_start_pause_stopwatch"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="11dp"
+            android:backgroundTint="@color/color_yellow"
+            android:src="@drawable/ic_play"
+            app:borderWidth="0dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_restart_stopwatch"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="11dp"
+            android:backgroundTint="@color/color_yellow"
+            android:src="@drawable/ic_replay"
+            app:borderWidth="0dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

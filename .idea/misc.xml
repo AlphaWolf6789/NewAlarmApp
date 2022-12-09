@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/drawable_circle_dark_blue.xml" value="0.1435" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/drawable_circle_yellow.xml" value="0.1435" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_bed_clock.xml" value="0.1" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_clock.xml" value="0.139" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_global_clock.xml" value="0.139" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_plus.xml" value="0.1475" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_stopwatch.xml" value="0.1475" />
+        <entry key="..\:/AlarmApp/app/src/main/res/drawable/ic_timer.xml" value="0.139" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.12360688956433637" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/custom_list_view.xml" value="0.13496376811594202" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/fragment_bed_clock.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/fragment_stopwatch.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/fragment_timer.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/fragment_world_clock.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.12360688956433637" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/item_time_zone.xml" value="0.13496376811594202" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/item_world_time.xml" value="0.264" />
+        <entry key="..\:/AlarmApp/app/src/main/res/layout/popup_time_zone.xml" value="0.13496376811594202" />
+        <entry key="..\:/AlarmApp/app/src/main/res/menu/menu_bottm_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/AlarmApp/app/src/main/res/menu/menu_pop_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/androidSDK/AndroidSDK/platforms/android-32/data/res/layout/auto_complete_list.xml" value="0.1" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.264" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/layout/fragment_alarm.xml" value="0.11574074074074074" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.264" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/layout/spinner_item.xml" value="0.1" />
+        <entry key="..\:/New folder/AlarmApp/app/src/main/res/menu/menu_bottom_nav.xml" value="0.11574074074074074" />
+        <entry key="..\:/New folder/AlarmAppAlpha/AlarmApp/app/src/main/res/drawable/rounded_swipe.xml" value="0.1435" />
+        <entry key="..\:/New folder/AlarmAppAlpha/AlarmApp/app/src/main/res/drawable/rounded_swipe_button.xml" value="0.1435" />
+        <entry key="..\:/New folder/AlarmAppAlpha/AlarmApp/app/src/main/res/layout/activity_ring.xml" value="0.264" />
+        <entry key="..\:/New folder/AlarmAppAlpha/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.13496376811594202" />
+        <entry key="..\:/New folder/AlarmAppFinalBuild/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.1" />
+        <entry key="..\:/New folder/AlarmAppFinalBuild/AlarmApp/app/src/main/res/menu/menu_pop_up.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/clicked_button.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/drawable_circle_dark_blue.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/drawable_circle_yellow.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_bed_clock.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_clock.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_global_clock.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_launcher_01_background.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_pause.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_plus.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_quick_alarm.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_replay.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_replay_white.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_stopwatch.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/ic_timer.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/switch_track.xml" value="0.16" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/drawable/toggle_button_default.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/activity_main.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/activity_ring.xml" value="0.16799999999999998" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/activity_ring2.xml" value="0.19322916666666667" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.1" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/custom_list_view.xml" value="0.16799999999999998" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/fragment_alarm.xml" value="0.264" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/fragment_bed_clock.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/fragment_stopwatch.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/fragment_timer.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/item_time_zone.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/item_world_time.xml" value="0.26132246376811596" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/layout_dialog.xml" value="0.264" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/popup_time_zone.xml" value="0.2" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/layout/spinner_item.xml" value="0.11574074074074074" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/menu/menu_bottom_nav.xml" value="0.27447916666666666" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder (2)/AlarmApp/app/src/main/res/menu/menu_pop_up.xml" value="0.27447916666666666" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.24230072463768115" />
+        <entry key="..\:/Study Hard/Hoc Ki 7/.Phat Trien PM Tren Android/BTL/New folder/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/clicked_button.xml" value="0.124" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/custom_seekbar.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/ic_play.xml" value="0.1085" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/image_overlay.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/round_button.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/rounded_button.xml" value="0.124" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/switch_thumb.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/text_color_clicked.xml" value="0.124" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/toggle_button_checked.xml" value="0.124" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/drawable/toggle_button_default.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/fragment_alarm.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/fragment_bed_clock.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/fragment_stopwatch.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/fragment_timer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/fragment_world_clock.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/layout/item_world_time.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/AlarmApp/app/src/main/res/menu/menu_bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/ic_alarm.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/ic_clock.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/ic_replay.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/ic_replay_white.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/layout_dialog_bg.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/drawable/rounded_button.xml" value="0.1315" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/activity_ring.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/activity_set_alarm.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/fragment_stopwatch.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/fragment_world_clock.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/item_alarm.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/item_time_zone.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/item_world_time.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/layout/layout_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Downloads/Compressed/AlarmApp/app/src/main/res/menu/menu_pop_up.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

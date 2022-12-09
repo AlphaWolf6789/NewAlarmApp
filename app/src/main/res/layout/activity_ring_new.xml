@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <TextView
+        android:id="@+id/time_Alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        android:gravity="center_horizontal"
+        android:text="09:00"
+        android:textColor="@color/white"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/txtNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_Alert"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Alarm"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <android.widget.Button
+        android:id="@+id/btn_snooze"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_dismiss"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/button_disable_background"
+        android:text="Snooze"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <android.widget.Button
+        android:id="@+id/btn_dismiss"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtNote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/color_yellow"
+        android:text="Dismiss"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragment.AlarmFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/button_disable_background"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/txt_Schedules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Schedules"
+                android:textColor="@color/color_yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Bedtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Schedules"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:text="BEDTIME"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_TimeBed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Bedtime"
+                android:text="23 : 30"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/txt_WakeUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Schedules"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:text="WAKE-UP"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Time_WakeUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_WakeUp"
+                android:layout_alignParentRight="true"
+                android:text="06 : 00"
+                android:textColor="@color/white"
+                android:textSize="35dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp" />
+
+
+</LinearLayout>
